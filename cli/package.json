@@ -1,6 +1,6 @@
 {
   "name": "@aimentiontracker/cli",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Read how often AI assistants name and cite your brand, from the terminal.",
   "keywords": [
     "ai-visibility",
@@ -32,11 +32,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Partridge12/aimentiontracker.git",
+    "url": "git+https://github.com/aimentiontracker/aimentiontracker-tools.git",
     "directory": "cli"
   },
   "homepage": "https://aimentiontracker.ai",
   "bugs": {
-    "url": "https://github.com/Partridge12/aimentiontracker/issues"
+    "url": "https://github.com/aimentiontracker/aimentiontracker-tools/issues"
   }
 }

@@ -1,6 +1,6 @@
 {
   "name": "@aimentiontracker/mcp",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "MCP server for AIMentionTracker \u2014 how often AI assistants name and cite your brand.",
   "keywords": [
     "mcp",
@@ -39,11 +39,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Partridge12/aimentiontracker.git",
+    "url": "git+https://github.com/aimentiontracker/aimentiontracker-tools.git",
     "directory": "mcp-server"
   },
   "homepage": "https://aimentiontracker.ai",
   "bugs": {
-    "url": "https://github.com/Partridge12/aimentiontracker/issues"
+    "url": "https://github.com/aimentiontracker/aimentiontracker-tools/issues"
   }
 }

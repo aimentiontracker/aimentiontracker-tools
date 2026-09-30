@@ -10,7 +10,7 @@
  * container safe to run: compromising it yields nothing that was not already
  * in the request.
  */
-export const VERSION = "0.1.0"
+export const VERSION = "0.1.1"
 
 export class ApiError extends Error {
   constructor(readonly status: number, readonly code: string, message: string) {

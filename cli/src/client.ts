@@ -7,7 +7,7 @@
  * nothing here worth taking a dependency for.
  */
 
-export const VERSION = "0.1.0"
+export const VERSION = "0.1.1"
 export const DEFAULT_BASE = "https://app.aimentiontracker.ai/api/v1"
 
 export class ApiError extends Error {
