@@ -45,5 +45,6 @@
   "homepage": "https://aimentiontracker.ai",
   "bugs": {
     "url": "https://github.com/aimentiontracker/aimentiontracker-tools/issues"
-  }
+  },
+  "mcpName": "io.github.aimentiontracker/aimentiontracker-tools"
 }
