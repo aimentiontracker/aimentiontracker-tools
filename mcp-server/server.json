@@ -1,0 +1,42 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-07-09/server.schema.json",
+  "name": "io.github.partridge12/aimentiontracker",
+  "description": "Measure how often ChatGPT, Claude, Gemini, Perplexity and Google's AI surfaces name and cite your brand when buyers ask for recommendations.",
+  "version": "0.1.0",
+  "repository": {
+    "url": "https://github.com/Partridge12/aimentiontracker",
+    "source": "github",
+    "subfolder": "mcp-server"
+  },
+  "websiteUrl": "https://aimentiontracker.ai",
+  "packages": [
+    {
+      "registryType": "npm",
+      "identifier": "@aimentiontracker/mcp",
+      "version": "0.1.0",
+      "transport": { "type": "stdio" },
+      "environmentVariables": [
+        {
+          "name": "AMT_API_KEY",
+          "description": "An API key from https://app.aimentiontracker.ai/api-keys. Read-only; it carries no ability to change billing, the team, or what is tracked.",
+          "isRequired": true,
+          "isSecret": true
+        }
+      ]
+    }
+  ],
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.aimentiontracker.ai",
+      "headers": [
+        {
+          "name": "Authorization",
+          "description": "Bearer amt_live_... — a key from https://app.aimentiontracker.ai/api-keys",
+          "isRequired": true,
+          "isSecret": true
+        }
+      ]
+    }
+  ]
+}

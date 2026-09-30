@@ -1,0 +1,42 @@
+{
+  "name": "@aimentiontracker/cli",
+  "version": "0.1.0",
+  "description": "Read how often AI assistants name and cite your brand, from the terminal.",
+  "keywords": [
+    "ai-visibility",
+    "chatgpt",
+    "seo",
+    "geo",
+    "brand-monitoring",
+    "cli"
+  ],
+  "license": "MIT",
+  "type": "module",
+  "bin": {
+    "amt": "dist/index.js"
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "SKILL.md"
+  ],
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "build": "tsc -p tsconfig.json && chmod +x dist/index.js",
+    "prepublishOnly": "npm run build"
+  },
+  "devDependencies": {
+    "typescript": "^5.9.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Partridge12/aimentiontracker.git",
+    "directory": "cli"
+  },
+  "homepage": "https://aimentiontracker.ai",
+  "bugs": {
+    "url": "https://github.com/Partridge12/aimentiontracker/issues"
+  }
+}
